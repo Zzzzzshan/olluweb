@@ -9,57 +9,55 @@ body {
   height: 500rem;
 }
 /* Header Section */
-.header {
+header {
   position: relative;
   top: 0;
   left: 0;
   right: 0;
   background: #23408f;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  padding: 0 4.5%;
+  /* padding: 0 2%; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 8.5rem;
   z-index: 1000;
 }
 
-.logo_name {
+.logo {
   font-weight: 600;
   color: white;
   font-size: 2rem;
+  margin-left: 7rem;
+}
+.logo a:hover {
+  cursor: pointer;
+  color: rgb(90, 171, 221);
 }
 
-.university_operations_1 {
-  margin-left: 5rem;
+.main-menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: 4rem;
 }
 
-.operations_list {
-  list-style: none;
-}
-
-/* .operation {
+.main-menu li {
   display: inline-block;
-} */
-.operation {
-  position: relative;
-  float: left;
+  margin-left: 1.5rem;
+  padding: 0px 18px;
 }
-
-.operation a {
-  font-size: 25px;
-  font-weight: 100;
-  margin-left: 1rem;
-  padding: 1rem;
+.main-menu li:hover,
+.main-menu li a:hover {
+  background: rgb(90, 171, 221);
+  cursor: pointer;
+  color: black;
+}
+.main-menu li a {
   color: white;
-  display: block;
+  font-size: 1.5rem;
+  line-height: 8.4rem;
 }
-
-.university_operations_2 {
-  margin-left: 5rem;
-}
-
-.operation a i {
+.main-menu li a i {
   padding-left: 1.5rem;
 }
 
