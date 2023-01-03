@@ -83,7 +83,7 @@ header {
   transform: translate(-50%, -50%);
 }
 .card:hover {
-  background-color: lightslategray;
+  background-color: rgb(90, 171, 221);
 }
 
 /* Add some padding and a border to the card */
@@ -99,5 +99,4 @@ header {
   top: 25%;
   right: 5%;
   font-size: 2rem;
-  /* padding-left: 0.2rem; */
 }
