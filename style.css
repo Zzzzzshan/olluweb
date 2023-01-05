@@ -101,10 +101,10 @@ header {
   font-size: 2rem;
 }
 
-/* Add some padding and a border to the card */
+/* Current Section*/
 .section_name {
   display: block;
-  margin-left: 7rem;
+  padding: 0 6%;
 }
 
 .section_name h3 {
@@ -115,8 +115,7 @@ header {
 .section_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 50px 50px 50px;
-  margin-left: 2.5rem;
+  padding: 0 5%;
 }
 .card_2 {
   display: flex;
@@ -156,24 +155,103 @@ header {
   padding-left: 25px;
 }
 
+/* All news & events section */
+
 .two_headings {
   line-height: 4rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+  padding: 0 6.5rem;
 }
 
 .two_headings h3 {
   font-size: 2.5rem;
-  padding: 0 5rem;
+
   color: blueviolet;
 }
+
 .two_headings h3:hover {
   color: black;
 }
+
 .two_headings h3 i {
   font-size: 2rem;
   padding: 2rem;
   font-weight: 4rem;
+}
+
+/* Two heading cards next to each other */
+.card-container {
+  display: flex;
+  padding: 0 5%;
+}
+.card-container :hover {
+  background: rgb(90, 171, 221);
+  color: black;
+}
+
+.card_3 {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  background: #23408f;
+  color: white;
+  padding: 2.5rem;
+  margin: 25px;
+}
+
+.card-heading {
+  font-size: 2rem;
+  line-height: 6rem;
+  font-weight: bold;
+}
+
+.card_3 i {
+  line-height: 6rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Card with image on left and text on right */
+.outer-card_4 {
+  display: flex;
+  padding: 0 7.8rem;
+}
+
+.inner-card_4 {
+  width: 50%;
+  background: rgb(90, 171, 221);
+}
+
+.inner_card_text_4 {
+  padding: 3.5rem;
+}
+
+.heading_icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-image_4 {
+  width: 100%;
+  height: auto;
+}
+
+.card-heading_4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.angle-right_4 i {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card-paragraph_4 p {
+  margin-top: 15px;
+  font-size: 30px;
+  line-height: 3rem;
 }
