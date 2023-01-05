@@ -163,7 +163,7 @@ header {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding: 0 6.5rem;
+  padding: 0 10rem;
 }
 
 .two_headings h3 {
@@ -203,14 +203,14 @@ header {
 }
 
 .card-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 6rem;
   font-weight: bold;
 }
 
 .card_3 i {
   line-height: 6rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -218,6 +218,7 @@ header {
 .outer-card_4 {
   display: flex;
   padding: 0 7.8rem;
+  margin-top: 5rem;
 }
 
 .inner-card_4 {
