@@ -86,7 +86,6 @@ header {
   background-color: rgb(90, 171, 221);
 }
 
-/* Add some padding and a border to the card */
 .card .content {
   padding: 60px 50px;
   color: white;
@@ -120,8 +119,6 @@ header {
 .card_2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 900px;
   padding: 20px;
   margin: 25px;
   border-left: 20px solid yellow;
@@ -149,12 +146,21 @@ header {
   text-align: center;
   padding-left: 30px;
 }
+.paragraph_icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 
 .paragraph {
   font-size: 35px;
   padding-left: 25px;
 }
 
+.paragraph_icon i {
+  font-size: 35px;
+  padding-right: 2rem;
+}
 /* All news & events section */
 
 .two_headings {
@@ -223,7 +229,13 @@ header {
 
 .inner-card_4 {
   width: 50%;
+  background: #23408f;
+  color: white;
+}
+
+.inner-card_4:hover {
   background: rgb(90, 171, 221);
+  color: black;
 }
 
 .inner_card_text_4 {
@@ -238,7 +250,7 @@ header {
 
 .card-image_4 {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .card-heading_4 {
@@ -247,7 +259,7 @@ header {
 }
 
 .angle-right_4 i {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -261,8 +273,8 @@ header {
 .card_5 {
   display: flex;
   justify-content: space-between;
-  background-color: blue;
-  padding: 5rem 10rem;
+  background: rgb(90, 171, 221);
+  padding: 7.5rem 10rem;
   margin-top: 5rem;
 }
 .card-left_5 {
@@ -273,30 +285,38 @@ header {
   font-size: 3rem;
 }
 .card-left_5 p {
-  font-size: 30px;
+  font-size: 2rem;
   line-height: 3rem;
-  margin-top: 2rem;
+  margin: 3rem 0;
 }
 
 .card-left_5 ul {
   list-style-type: none;
-  margin-top: 3rem;
+  line-height: 3.5rem;
 }
 
 .card-left_5 ul li {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
   padding: 2rem;
   margin-left: -2rem;
 }
 .card-left_5 ul li:hover {
-  background: grey;
+  background: yellow;
 }
 
-.card-left_5 ul li a {
-  line-height: 2rem;
+.angle_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.angle_icon a {
+  font-size: 2.5rem;
   font-weight: bold;
   color: black;
+}
+.angle_icon i {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 7px;
 }
 .card-right_5 {
   width: 50%;
@@ -304,6 +324,128 @@ header {
   align-items: center;
 }
 .card-right_5 img {
-  width: 25rem;
-  height: 25rem;
+  width: 30rem;
+  height: 30rem;
+  margin: 25% 25% 10% 25%;
+}
+
+/* Research Multidisiplinary research */
+.card_6 {
+  display: flex;
+  justify-content: space-between;
+  background: #4bbca9;
+  padding: 7.5rem 10rem;
+  margin-top: 3rem;
+}
+.card-left_6 {
+  width: 50%;
+}
+
+.card-left_6 h3 {
+  font-size: 3rem;
+}
+.card-left_6 p {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 3rem 0;
+}
+
+.card-left_6 ul {
+  list-style-type: none;
+  line-height: 3.5rem;
+}
+
+.card-left_6 ul li {
+  padding: 2rem;
+  margin-left: -2rem;
+}
+.card-left_6 ul li:hover {
+  background: yellow;
+}
+
+.angle_icon_6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.angle_icon_6 a {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+}
+.angle_icon_6 i {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 7px;
+}
+.card-right_6 {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.card-right_6 img {
+  width: 30rem;
+  height: 30rem;
+  margin: 25% 25% 10% 25%;
+}
+
+/* Diverse collaboration and services */
+.card_7 {
+  display: flex;
+  justify-content: space-between;
+  background: yellow;
+  padding: 7.5rem 10rem;
+  margin-top: 3rem;
+}
+.card-left_7 {
+  width: 50%;
+}
+
+.card-left_7 h3 {
+  font-size: 3rem;
+}
+.card-left_7 p {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 3rem 0;
+}
+
+.card-left_7 ul {
+  list-style-type: none;
+  line-height: 3.5rem;
+}
+
+.card-left_7 ul li {
+  display: block;
+  padding: 2rem;
+  margin: 0 -2rem;
+}
+.card-left_7 ul li:hover {
+  background: rgb(90, 171, 221);
+}
+
+.angle_icon_7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.angle_icon_7 a {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+}
+.angle_icon_7 i {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 7px;
+}
+.card-right_7 {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.card-right_7 img {
+  width: 30rem;
+  height: 30rem;
+  margin: 25% 25% 10% 25%;
 }
