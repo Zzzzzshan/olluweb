@@ -256,3 +256,54 @@ header {
   font-size: 30px;
   line-height: 3rem;
 }
+
+/* <!-- Text on left & Bulb on right --> */
+.card_5 {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  padding: 5rem 10rem;
+  margin-top: 5rem;
+}
+.card-left_5 {
+  width: 50%;
+}
+
+.card-left_5 h3 {
+  font-size: 3rem;
+}
+.card-left_5 p {
+  font-size: 30px;
+  line-height: 3rem;
+  margin-top: 2rem;
+}
+
+.card-left_5 ul {
+  list-style-type: none;
+  margin-top: 3rem;
+}
+
+.card-left_5 ul li {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  margin-left: -2rem;
+}
+.card-left_5 ul li:hover {
+  background: grey;
+}
+
+.card-left_5 ul li a {
+  line-height: 2rem;
+  font-weight: bold;
+  color: black;
+}
+.card-right_5 {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.card-right_5 img {
+  width: 25rem;
+  height: 25rem;
+}
