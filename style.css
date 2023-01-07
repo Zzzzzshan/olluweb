@@ -5,58 +5,52 @@
   font-family: "Messina Sans", sans-serif;
   text-decoration: none;
 }
+body {
+  overflow-x: hidden;
+}
 
 .wrapper_div {
   width: 1280px;
+  margin: 0 auto;
 }
 /* Header Section */
-header {
-  background: #23408f;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+.container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  z-index: 1000;
+  justify-content: center;
+  background: #23408f;
 }
-
-.logo {
-  font-weight: 600;
+.logo_main {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: bolder;
   color: white;
-  font-size: 2rem;
-  /* margin-left: 7rem; */
+  display: inline-block;
 }
-.logo a:hover {
-  cursor: pointer;
+.logo_main:hover {
   color: rgb(90, 171, 221);
 }
-
-.main-menu {
+.nav {
   display: flex;
   align-items: center;
-  list-style-type: none;
-  margin-left: 4rem;
+  display: inline-block;
+}
+.nav a {
+  font-size: 1rem;
+  padding: 4rem 1rem;
+  line-height: 6rem;
+  color: white;
 }
 
-.main-menu li {
-  display: inline-block;
-  margin-left: 1.5rem;
-  padding: 0px 18px;
-}
-.main-menu li:hover,
-.main-menu li a:hover {
+.nav a:hover {
   background: rgb(90, 171, 221);
-  cursor: pointer;
   color: black;
 }
-.main-menu li a {
-  color: white;
-  font-size: 1.5rem;
-  line-height: 8.4rem;
-}
-.main-menu li a i {
+.nav a i {
+  font-size: 1rem;
   padding-left: 1.5rem;
 }
-
 /* Image Section */
 .bg_image {
   background-image: url(../images/header_down.jpg);
@@ -68,15 +62,14 @@ header {
 }
 .card {
   width: 100%;
-  max-width: 960px;
+  max-width: 550px;
   margin: auto;
-  background-color: #23408f;
+  background: #23408f;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
   position: absolute;
   top: 67%;
   left: 72.5%;
-  transform: translate(-50%, -50%);
 }
 .card:hover {
   background-color: rgb(90, 171, 221);
@@ -89,17 +82,17 @@ header {
   line-height: 1.33;
 }
 .icon {
-  position: fixed;
+  /* position: fixed; */
   color: white;
-  top: 25%;
-  right: 5%;
+  /* top: 25%;
+  right: 5%; */
   font-size: 2rem;
 }
 
 /* Current Section*/
 .section_name {
   display: block;
-  padding: 0 6%;
+  /* padding: 0 6%; */
 }
 
 .section_name h3 {
