@@ -61,7 +61,7 @@ body {
 }
 /* Image Section */
 .bg_image {
-  background-image: url(../images/header_down.jpg);
+  background-image: url(images/header_down.jpg);
   background-position: center;
   height: 120vh;
   background-repeat: no-repeat;
